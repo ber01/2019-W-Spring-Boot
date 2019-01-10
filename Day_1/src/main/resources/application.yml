@@ -1,0 +1,9 @@
+server:
+  port: 80
+
+property:
+  test:
+    name: property depth test
+
+propertyTest: test
+propertyTestList: a,b,c
