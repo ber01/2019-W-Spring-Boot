@@ -25,15 +25,19 @@
 #### 5. Gradle
 - Groovy를 이용한 빌드 자동화 시스템
 
-#### 6. Rest Controller
+#### 6. @RestController
 - REST 방식의 데이터 자체를 서비스로 제공
 - JSP처럼 뷰를 생성하는 것이 아닌 데이터 자체를 반환(단순 문자열, JSON, XML)
 
-#### 7. GetMapping
+#### 7. @GetMapping
 - 요청 URL을 어떠한 메서드가 처리할 지 맵핑
 - controller 내부에서 URI 경로 지정
 
 #### 8. @Value
 - 프로퍼티의 키를 사용하여 특정한 값 호출
+
+#### 8. @ConfigurationProperties
+- 다양한 형의 프로퍼티값 매핑
+- 접두사를 사용하요 값을 바인딩
 
 ---
