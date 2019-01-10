@@ -9,3 +9,4 @@
 ### [Day_1](https://github.com/ber01/Study-Spring-Boot/tree/master/Day_1)
 - application.yml 생성 및 테스트 프로퍼티값 추가
 - @Value 어노테이션 테스트
+- @ConfigurationProperties 어노테이션 테스트
