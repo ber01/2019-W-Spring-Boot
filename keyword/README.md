@@ -33,11 +33,50 @@
 - 요청 URL을 어떠한 메서드가 처리할 지 맵핑
 - controller 내부에서 URI 경로 지정
 
-#### 8. @Value
+#### 8. YAML 파일
+- 사람이 쉽게 읽을 수 있는 데이터 직렬화 양식
+- JSON, XML과 같은 가독성을 고려한 데이터 포맷 형식
+
+#### 9. @Value
 - 프로퍼티의 키를 사용하여 특정한 값 호출
 
-#### 8. @ConfigurationProperties
+#### 10. @ConfigurationProperties
 - 다양한 형의 프로퍼티값 매핑
 - 접두사를 사용하요 값을 바인딩
 
+#### 11. @Data
+- 아래 어노테이션을 한 번에 처리하는 어노테이션
+- @ToString, @EqualsAndHashCode, @Getter, @Setter, @RequiredAndConstructor
+- @ToString : 모든 필드를 출력하는 toString() 메소드 생성
+- @EqualsAndHashCode : hashcode 와 equals 메소드를 생성
+- @Getter/@Setter : getter, setter를 생성하지 않도록 지원
+- @RequiredAndConstructor : 생성자 생성 관련 지원
+
+### 12. Spring Bean
+- 스프링 컨테이너에서 생성 된 자바 객체
+
+#### 13. @Bean, @Component
+- 목적이 명확하지 않은 자바 객체(Bean)를 생성할 때 사용하는 어노테이션
+- @Bean : 개발자가 컨트롤이 불가능한 외부 라이브러리를 Bean으로 등록하고 싶을 때 사용
+- @Component : 개발자가 직접 컨트롤이 가능한(생성한) 클래스의 경우 사용
+
+#### 14. H2
+- 자바로 작성된 인 메모리 관계형 데이터베이스 관리 시스템
 ---
+
+## (2) Ch.3
+
+#### 1. @JUnit
+- 자바의 대표적인 단위 테스트 프레임워크
+
+#### 2. @RunWith
+-
+
+#### 3. @SpringBootTest
+-
+
+#### 4. @WebMvcTest
+
+#### 5.
+
+#### 6.
