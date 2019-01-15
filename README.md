@@ -11,10 +11,15 @@
 
 ### [Day_1](https://github.com/ber01/Study-Spring-Boot/tree/master/Day_1)
 - application.yml 생성 및 테스트 프로퍼티값 추가
-- @Value 어노테이션 테스트
-- @ConfigurationProperties 어노테이션 테스트
+- @Value 어노테이션
+- @ConfigurationProperties 어노테이션
 
 ### [Day_2](https://github.com/ber01/Study-Spring-Boot/tree/master/Day_2)
 - H2 Console 자동 설정 적용
-- @SpringBootTest 어노테이션 테스트
-- @WebMvcTest 어노테이션 테스트
+- @SpringBootTest 어노테이션
+- @WebMvcTest 어노테이션
+
+### [Day_3](https://github.com/ber01/Study-Spring-Boot/tree/master/Day_3)
+- @DataJpaTest 어노테이션
+- @RestCilentTest 어노테이션
+- @JsonTest 어노테이션
