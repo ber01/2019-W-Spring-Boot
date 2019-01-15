@@ -91,3 +91,30 @@
 #### 7. @JsonTest
 - JSON의 직렬화와 역직렬화를 수행하는 라이브러리 제공
 - 문자열로 나열된 JSON 데이터를 객체로 변환하여 변한된 객체의 값 테스트
+
+---
+
+## (3) Ch.4
+#### 1. [MVC 패턴]()
+
+#### 2. [타임리프(Tymeleaf)]()
+
+#### 3. [템플릿](), [템플릿 엔진]()
+
+#### 4. [의존 라이브러리]()
+- Web
+- 타임리프
+- JPA
+- Devtools
+- 롬복
+- H2
+
+#### 5. [각종 어노테이션 모음]()
+- Serializable
+- @Getter
+- @NoArgsConstructor
+- @Entity
+- @Table
+- @Id
+- @Column
+- @Builder

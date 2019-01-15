@@ -23,3 +23,12 @@
 - @DataJpaTest 어노테이션
 - @RestCilentTest 어노테이션
 - @JsonTest 어노테이션
+
+### [Day_4](https://github.com/ber01/Study-Spring-Boot/tree/master/Day_4)
+- 게시판 프로젝트 생성
+- 프로젝트 의존성 구성(Devtools, Lombok, Web, Thymeleaf, JPA, H2)
+- 도메인 매핑
+  1. 도메인 클래스 생성
+  2. DB와 도메인 클래스 연결
+- 도메인 테스트하기
+  1. @DataJpaTest를 사용
