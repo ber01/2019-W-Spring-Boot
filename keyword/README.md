@@ -95,7 +95,7 @@
 ---
 
 ## (3) Ch.4
-#### 1. [MVC 패턴]()
+#### 1. [MVC 패턴](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/MVC)
 
 #### 2. [타임리프(Tymeleaf)]()
 
@@ -109,7 +109,7 @@
 - 롬복
 - H2
 
-#### 5. [각종 어노테이션 모음]()
+#### 5. [각종 어노테이션 모음](https://github.com/etg6550/2019WinterProject/tree/master/Day4/HomeWork)
 - Serializable
 - @Getter
 - @NoArgsConstructor
