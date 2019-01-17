@@ -97,11 +97,9 @@
 ## (3) Ch.4
 #### 1. [MVC 패턴](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/MVC)
 
-#### 2. [타임리프(Tymeleaf)]()
+#### 2. [타임리프(Tymeleaf), 템플릿, 템플릿 엔진](https://github.com/rhkd4560/Study-SpringBoot/tree/master/Spring%204day/homework)
 
-#### 3. [템플릿](), [템플릿 엔진]()
-
-#### 4. [의존 라이브러리]()
+#### 3. [의존 라이브러리](https://github.com/dongh9508/Study-SpringBoot2/tree/master/keyword/LINK/dependency%20library)
 - Web
 - 타임리프
 - JPA
@@ -109,7 +107,7 @@
 - 롬복
 - H2
 
-#### 5. [각종 어노테이션 모음](https://github.com/etg6550/2019WinterProject/tree/master/Day4/HomeWork)
+#### 4. [각종 어노테이션 모음](https://github.com/etg6550/2019WinterProject/tree/master/Day4/HomeWork)
 - Serializable
 - @Getter
 - @NoArgsConstructor
@@ -118,3 +116,12 @@
 - @Id
 - @Column
 - @Builder
+
+#### 5. [각종 어노테이션 모음2]()
+- @Service
+- Pageable
+- @Controller
+- @RequestMapping
+- @PageableParam
+- @PageableDefault
+- @Bean
