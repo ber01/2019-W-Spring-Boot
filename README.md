@@ -9,6 +9,8 @@
 - 개발 툴 : 인텔리제이
 - 운영체제 : Mac OS
 
+---
+
 ### 기획
 - 스프링 부트의 기본 개념을 이해하고 커뮤니티 게시판 구축
 - 참여 인원 모두가 개인 프로젝트 진행
@@ -20,6 +22,8 @@
 | Day_2 | 2일 차에 진행 한 소스코드 |
 | ... | ... |
 | KeyWord | 각 Chapter 별 용어 정리 |
+
+---
 
 ### [KeyWord](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword)
 - Chapter 용어 정리
@@ -53,3 +57,28 @@
 - Controller 클래스 생성
 - DataBase에 데이터 넣기(CommandLineRunner활용)
 - 타임리프를 사용하여 게시글 리스트 및 등록 폼 생성
+- H2-console 확인
+
+`application.properties`
+~~~
+spring.thymeleaf.cache=false
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.generate-ddl=true
+spring.jpa.show-sql=true
+
+spring.h2.console.enabled=true
+
+logging.level.org.hibernate=info
+logging.level.org.springframework.web=info
+~~~
+`url : http://localhost:8080/h2-console/`
+
+
+### [Day_6](https://github.com/ber01/Study-Spring-Boot/tree/master/Day_6)
+- 스프링 부트 시큐리티 개념
+- OAuth2 승인 타입 중 권한 부여 코드 승인 타입 방법
+- 소셜 미디어 타입 정보 객체 생성
+- USER 클래스 인증 컬럼 추가(principal, socialType)
+- 스프링 부트 시큐리티 + OAuth2 의존성 설정
+- 클라이언트 ID, Secret발급 받기(페이스북, 구글, 카카오)

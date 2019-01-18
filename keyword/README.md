@@ -125,3 +125,11 @@
 - @PageableParam
 - @PageableDefault
 - @Bean
+
+---
+
+## (4) Ch.5
+#### 1. 스프링 부트 시큐리티, OAuth2
+- 소개
+- 인증 수행 방법
+- 권한 부여 코드 승인타입
