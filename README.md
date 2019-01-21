@@ -82,3 +82,8 @@ logging.level.org.springframework.web=info
 - USER 클래스 인증 컬럼 추가(principal, socialType)
 - 스프링 부트 시큐리티 + OAuth2 의존성 설정
 - 클라이언트 ID, Secret발급 받기(페이스북, 구글, 카카오)
+
+### [Day_7](https://github.com/ber01/Study-Spring-Boot/tree/master/Day_7)
+- 1.5.14 버전 다운그레이드
+- 시큐리티 설정
+- OAuth2 설정

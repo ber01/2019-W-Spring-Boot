@@ -40,7 +40,7 @@
 
 #### 10. @ConfigurationProperties
 - 다양한 형의 프로퍼티값 매핑
-- 접두사를 사용하요 값을 바인딩
+- 접두사를 사용하여 값을 바인딩
 
 #### 11. @Data
 - 아래 어노테이션을 한 번에 처리하는 어노테이션
@@ -132,3 +132,30 @@
 - 소개
 - 인증 수행 방법
 - 권한 부여 코드 승인타입
+
+#### 2. [각종 어노테이션 및 인터페이스]()
+- @NestedConfigurationProperty
+- AuthorizationCodeResourceDetails
+- ResourceServerProperties
+  - OAuth2 리소스 값
+- @Configuration
+- 동기, 비동기 통신
+
+#### 3. [각종 어노테이션 및 인터페이스2]()
+- @EnableWebSecurity
+- WebSecurityConfigurerAdapter
+- HttpServletRequest
+- XFrameOptionsHeaderWriter
+- CharacterEncodingFilter
+- CsrfFilter
+
+#### 4. [각종 어노테이션 및 인터페이스3]()
+- @EnableOAuth2Client
+- OAuth2ClientContext
+- BasicAuthenticationFilter
+- FilterRegistrationBean
+- Filter
+- CompositeFilter
+- OAuth2ClientAuthenticationProcessingFilter
+- OAuth2RestTemplate
+- UserInfoTokenService
