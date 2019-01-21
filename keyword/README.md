@@ -117,14 +117,13 @@
 - @Column
 - @Builder
 
-#### 5. [각종 어노테이션 모음2]()
+#### 5. [각종 어노테이션 모음2](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/Annotation2)
 - @Service
 - Pageable
 - @Controller
 - @RequestMapping
 - @RequestParam
 - @PageableDefault
-- @Bean
 
 ---
 
