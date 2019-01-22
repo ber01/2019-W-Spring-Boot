@@ -87,3 +87,7 @@ logging.level.org.springframework.web=info
 - 1.5.14 버전 다운그레이드
 - 시큐리티 설정
 - OAuth2 설정
+
+### [Day_8](https://github.com/ber01/Study-Spring-Boot/tree/master/Day_8)
+- User 정보를 가져온 후 세션에 저장
+- 이해가 안가서 처음으로 되돌아감

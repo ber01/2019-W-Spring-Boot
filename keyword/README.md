@@ -133,7 +133,7 @@
 - 인증 수행 방법
 - 권한 부여 코드 승인타입
 
-#### 2. [각종 어노테이션 및 인터페이스]()
+#### 2. [각종 어노테이션 및 인터페이스](https://github.com/pdh6547/study-spring-boot/blob/master/Keyword/Homework/Annotaion%20and%20Interface.md)
 - @NestedConfigurationProperty
 - AuthorizationCodeResourceDetails
 - ResourceServerProperties
@@ -149,7 +149,7 @@
 - CharacterEncodingFilter
 - CsrfFilter
 
-#### 4. [각종 어노테이션 및 인터페이스3]()
+#### 4. [각종 어노테이션 및 인터페이스3](https://github.com/woghd9072/study-spring-boot/tree/master/Keyword/Homework)
 - @EnableOAuth2Client
 - OAuth2ClientContext
 - BasicAuthenticationFilter
@@ -159,3 +159,5 @@
 - OAuth2ClientAuthenticationProcessingFilter
 - OAuth2RestTemplate
 - UserInfoTokenService
+
+#### 5.
