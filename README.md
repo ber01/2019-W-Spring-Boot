@@ -91,3 +91,13 @@ logging.level.org.springframework.web=info
 ### [Day_8](https://github.com/ber01/Study-Spring-Boot/tree/master/Day_8)
 - User 정보를 가져온 후 세션에 저장
 - 이해가 안가서 처음으로 되돌아감
+
+### [Day_9](https://github.com/ber01/Study-Spring-Boot/tree/master/Day_9)
+- 소셜 미디어 타입 정보를 나타내는 열거형 생성(facebook, google, kakao)
+- User 테이블 컬럼 추가
+  - principal : OAuth2 인증으로 제공받는 키 값
+  - socialType : 어떤 소셜 미디어로 인증받았는지 여부
+- SNS 연동을 위한 리소스 정보 추가하기
+- SNS 리소스 정보를 객체로 매핑하는 ClientResources 클래스 생성
+- 각 SNS의 프로퍼티 값을 호출하는 SecurityConfig 클래스 생성 후 빈 등록
+- 시큐리티 설정을 위한 SecurityConfig 수정
