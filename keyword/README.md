@@ -162,3 +162,5 @@
 
 #### 5. [OAuth2 정리](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/OAuth2)
 - 권한 부여 코드 승인타입 인증 절차
+
+#### 6. [p136 ~ p137 코드 정리](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/p136)
