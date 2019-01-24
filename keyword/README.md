@@ -141,7 +141,7 @@
 - @Configuration
 - 동기, 비동기 통신
 
-#### 3. [각종 어노테이션 및 인터페이스2]()
+#### 3. [각종 어노테이션 및 인터페이스2](https://github.com/hagome0/Study-Spring-Boot/tree/master/keyword/Annotaion%20and%20Interface2)
 - @EnableWebSecurity
 - WebSecurityConfigurerAdapter
 - HttpServletRequest
@@ -160,4 +160,5 @@
 - OAuth2RestTemplate
 - UserInfoTokenService
 
-#### 5.
+#### 5. [OAuth2 정리](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/OAuth2)
+- 권한 부여 코드 승인타입 인증 절차

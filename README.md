@@ -97,3 +97,14 @@ logging.level.org.springframework.web=info
 - SNS 리소스 정보를 객체로 매핑하는 ClientResources 클래스 생성
 - 각 SNS의 프로퍼티 값을 호출하는 SecurityConfig 클래스 생성 후 빈 등록
 - 시큐리티 설정을 위한 SecurityConfig 수정
+
+### 10일차
+- OAuth2 설정
+  - 웹에서 OAuth2를 사용하기 위하여 @EnableOAuth2Client 추가
+    1. 현재 요청과 컨텍스트를 저장하는 필터 빈 생성
+    2. AccessTokenRequest 타입 빈 생성
+  - 권한 서버의 응답값을 받기 위한 OAuth2ClientContext 객체 생성
+  - 1)을 수행하는 oauth2ClientFilterRegistration 메소드 생성
+    - FilterRegistrationBean : 필터를 추가하는 방법
+    - OAuth2ClientContextFilter : 요청 처리 동안에 인증을 필요로 하는 경우 OAuth 인증 URI로 오고 가는 리다이렉트 관리
+  - facebook, google, kakao 로그인 관련 필터를 생성하는 oauth2Filter() 메소드 생성
