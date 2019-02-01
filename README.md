@@ -108,3 +108,16 @@ logging.level.org.springframework.web=info
     - FilterRegistrationBean : 필터를 추가하는 방법
     - OAuth2ClientContextFilter : 요청 처리 동안에 인증을 필요로 하는 경우 OAuth 인증 URI로 오고 가는 리다이렉트 관리
   - facebook, google, kakao 로그인 관련 필터를 생성하는 oauth2Filter() 메소드 생성
+
+### 11일차
+- MySQL 연동 및 테스트
+  - MySQL, MySQL_WorkBench 다운로드
+    - connection, schema 생성
+  - MySQL 런타임 의존성 추가(build.gradle)
+  - MySQL 연동을 위한 YAML파일 설정 추가(application.yml)
+  - [MySQL 테이블 확인](./images/3.png)
+- REST API 프로젝트 생성(Spring-Boot-Rest)
+  - 그레이들 멀티 프로젝트 구성(data-rest, rest-web)
+    - data-rest : 스프링 부트 데이터 레스트로 REST API 구현
+    - rest-web : 스프링 부트 MVC 패턴으로 REST API 구현
+  - 의존성 설정(build.gradle)
