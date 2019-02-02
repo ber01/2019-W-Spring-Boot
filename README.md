@@ -118,6 +118,10 @@ logging.level.org.springframework.web=info
   - [MySQL 테이블 확인](./images/3.png)
 - REST API 프로젝트 생성(Spring-Boot-Rest)
   - 그레이들 멀티 프로젝트 구성(data-rest, rest-web)
-    - data-rest : 스프링 부트 데이터 레스트로 REST API 구현
     - rest-web : 스프링 부트 MVC 패턴으로 REST API 구현
+    - data-rest : 스프링 부트 데이터 레스트로 REST API 구현
   - 의존성 설정(build.gradle)
+- REST API 구현하기(rest-web)
+  - DB 설정 프로퍼티 datasource 설정(application.yml) 및 포트 설정
+  - 커뮤니티 게시판 코드 입력
+  - [페이징 된 Board 객체 데이터 읽어오기](./images/4.png)
