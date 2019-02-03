@@ -164,3 +164,10 @@
 - 권한 부여 코드 승인타입 인증 절차
 
 #### 6. [p136 ~ p137 코드 정리](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/p136)
+
+---
+## (5) Ch.6
+#### 1. [용어정리 #1](https://github.com/mkshin96/study-spring-boot/blob/master/%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC/REST.md)
+- REST
+- RESTful
+- HATEOAS

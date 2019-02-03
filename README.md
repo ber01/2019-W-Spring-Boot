@@ -125,3 +125,5 @@ logging.level.org.springframework.web=info
   - DB 설정 프로퍼티 datasource 설정(application.yml) 및 포트 설정
   - 커뮤니티 게시판 코드 입력
   - [페이징 된 Board 객체 데이터 읽어오기](./images/4.png)
+
+### 12일차
