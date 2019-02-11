@@ -127,3 +127,9 @@ logging.level.org.springframework.web=info
   - [페이징 된 Board 객체 데이터 읽어오기](./images/4.png)
 
 ### 12일차
+- 서로 다른 도메인의 접근을 허용 권한을 위한 CORS 적용
+- 생성, 수정, 삭제 구현
+  - form.html 수정 : 페이지 변화 없이 데이터 요청/응답
+  - 생성 : @PostMapping
+  - 수정 : @PutMapping
+  - 삭제 : @DeleteMapping
