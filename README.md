@@ -133,3 +133,20 @@ logging.level.org.springframework.web=info
   - 생성 : @PostMapping
   - 수정 : @PutMapping
   - 삭제 : @DeleteMapping
+
+### 13일차
+- 6장 종료 및 4장 복습 시작
+- 커뮤니티 게시판 프로젝트 생성(Spring-Boot-Community-Web2)
+  1. Group : com.kyunghwan
+  2. Artifact : boot
+  3. Type : Gradle Project
+  4. Package : com.kyunghwan
+  5. Dependencies : DevTools, Lombok, Web, Thymeleaf, JPA, H2
+- 프로젝트 의존성 구성(build.gradle)
+- Domain 패키지 생성
+  1. Board 클래스 생성
+  2. User 클래스 생성
+- Repository 패키지 생성
+  1. BoardRepository 인터페이스 생성
+  2. UserRepository 인터페이스 생성
+- 도메인 테스트
