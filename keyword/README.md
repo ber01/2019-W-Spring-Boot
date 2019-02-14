@@ -176,3 +176,9 @@
 
 ## (6) etc
 #### 1. [p104](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/p104)
+  - @Entity, @Table
+#### 2. [게시판 출력](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/BoardPrint)
+  1. 페이징 형식 출력
+  2. 페이징 형식 역순 출력
+  3. 리스트 형식 출력
+  4. 리스트 형식 역순 출력

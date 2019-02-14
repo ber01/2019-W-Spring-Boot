@@ -150,3 +150,16 @@ logging.level.org.springframework.web=info
   1. BoardRepository 인터페이스 생성
   2. UserRepository 인터페이스 생성
 - 도메인 테스트
+
+### 14일차
+- Service 패키지 생성
+  - BoardService 생성 - 게시판의 리스트, 폼, 핵심 로직
+- Controller 패키지 생성
+  - BoardController 생성 - 서비스를 통해 처리된 데이터를 뷰 쪽에 바인딩
+- 데이터베이스에 데이터 삽입
+- [게시판 출력](https://github.com/ber01/Study-Spring-Boot/tree/master/keyword/BoardPrint)
+  1. 페이징 형식 출력
+  2. 페이징 형식 역순 출력
+  3. 리스트 형식 출력
+  4. 리스트 형식 역순 출력
+- (think) '#' 버튼을 눌렀을 때 게시글 역순 출력
