@@ -163,3 +163,15 @@ logging.level.org.springframework.web=info
   3. 리스트 형식 출력
   4. 리스트 형식 역순 출력
 - (think) '#' 버튼을 눌렀을 때 게시글 역순 출력
+
+### 15일차
+- 4장 전체 복습
+- 데이터 베이스 연결(MySQL) 및 테스트
+
+### 16일차
+- Rest API 프로젝트 생성(Spring-Boot-Community-Rest2)
+  1. 프로젝트 의존성 설정(build.gradle)
+  2. MySQL 연동(application.yml)
+  3. DataSource 및 포트 설정
+- 교차 출처 HTTP 요청을 위한 CORS 허용 코드 작성
+- 생성, 수정, 삭제 구현
