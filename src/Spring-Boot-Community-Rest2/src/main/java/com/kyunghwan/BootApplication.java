@@ -38,5 +38,4 @@ public class BootApplication {
 					.and().csrf().disable();
 		}
 	}
-
 }

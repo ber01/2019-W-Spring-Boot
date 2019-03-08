@@ -2,8 +2,6 @@ package com.kyunghwan.controller;
 
 import com.kyunghwan.service.BoardService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,27 +13,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class BoardController {
 
     @Autowired
-    BoardService boardService;
+    BoardService baordService;
 
-    @GetMapping("")
-    public String board(@RequestParam(value = "idx", defaultValue = "0") Long idx, Model model){
-        model.addAttribute("board", boardService.findBoardByIdx(idx));
-        return "/board/form";
-    }
-
-
-    @GetMapping("/list")
-    public String list(@PageableDefault Pageable pageable, Model model){
-        model.addAttribute("boardList", boardService.findBoardList(pageable));
-        return "/board/list";
-    }
-
-    /*
     @GetMapping("/list")
     public String list(Model model){
-        model.addAttribute("boardList", boardService.findBoardList());
+        model.addAttribute("boardList", baordService.findBoardList());
         return "/board/list";
     }
-    */
 
+    @GetMapping({"", "/"})
+    public String board(@RequestParam(value = "idx", defaultValue = "0") Long idx, Model model){
+        model.addAttribute("board", baordService.findByIdx(idx));
+        return "/board/form";
+    }
 }

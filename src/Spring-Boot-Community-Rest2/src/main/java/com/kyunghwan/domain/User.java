@@ -1,6 +1,6 @@
 package com.kyunghwan.domain;
 
-import com.kyunghwan.domain.enums.BoardType;
+import com.kyunghwan.domain.enums.SocialType;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Entity
 @Table
-public class Board implements Serializable {
+public class User implements Serializable {
 
     @Id
     @Column
@@ -21,17 +21,20 @@ public class Board implements Serializable {
     private Long idx;
 
     @Column
-    private String title;
+    private String name;
 
     @Column
-    private String subTitle;
+    private String password;
 
     @Column
-    private String content;
+    private String email;
+
+    @Column
+    private String principal;
 
     @Column
     @Enumerated(EnumType.STRING)
-    private BoardType boardType;
+    private SocialType socialType;
 
     @Column
     private LocalDateTime createdDate;
@@ -39,17 +42,14 @@ public class Board implements Serializable {
     @Column
     private LocalDateTime updatedDate;
 
-    @OneToOne(fetch= FetchType.LAZY)
-    private User user;
-
     @Builder
-    public Board(String title, String subTitle, String content, BoardType boardType, LocalDateTime createdDate, LocalDateTime updatedDate, User user) {
-        this.title = title;
-        this.subTitle = subTitle;
-        this.content = content;
-        this.boardType = boardType;
+    public User(String name, String password, String email, String principal, SocialType socialType, LocalDateTime createdDate, LocalDateTime updatedDate) {
+        this.name = name;
+        this.password = password;
+        this.email = email;
+        this.principal = principal;
+        this.socialType = socialType;
         this.createdDate = createdDate;
         this.updatedDate = updatedDate;
-        this.user = user;
     }
 }

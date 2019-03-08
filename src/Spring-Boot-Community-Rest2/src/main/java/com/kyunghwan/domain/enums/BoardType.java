@@ -1,6 +1,7 @@
 package com.kyunghwan.domain.enums;
 
 public enum BoardType {
+
     notice("공지사항"),
     free("자유게시판");
 
@@ -11,6 +12,6 @@ public enum BoardType {
     }
 
     public String getValue() {
-        return this.value;
+        return value;
     }
 }

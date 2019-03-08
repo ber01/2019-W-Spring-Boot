@@ -1,17 +1,19 @@
 package com.kyunghwan.domain;
 
+import com.kyunghwan.domain.enums.SocialType;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-@Getter
 @NoArgsConstructor
+@Getter
 @Entity
 @Table
-public class User {
+public class User implements Serializable {
 
     @Id
     @Column
@@ -28,16 +30,25 @@ public class User {
     private String email;
 
     @Column
+    private String principal;
+
+    @Column
+    @Enumerated(EnumType.STRING)
+    private SocialType socialType;
+
+    @Column
     private LocalDateTime createdDate;
 
     @Column
     private LocalDateTime updatedDate;
 
     @Builder
-    public User(String name, String password, String email, LocalDateTime createdDate, LocalDateTime updatedDate) {
+    public User(String name, String password, String email, String principal, SocialType socialType, LocalDateTime createdDate, LocalDateTime updatedDate) {
         this.name = name;
         this.password = password;
         this.email = email;
+        this.principal = principal;
+        this.socialType = socialType;
         this.createdDate = createdDate;
         this.updatedDate = updatedDate;
     }

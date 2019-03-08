@@ -175,3 +175,19 @@ logging.level.org.springframework.web=info
   3. DataSource 및 포트 설정
 - 교차 출처 HTTP 요청을 위한 CORS 허용 코드 작성
 - 생성, 수정, 삭제 구현
+
+### 17일차
+- 페이스북, 구글, 개발자센터 연동
+  - client-id, client-secret 발급
+  - 소셜별 id, secret 정보 입력(application.yml)
+- 소셜 미디어 타입 정보 객체 생성(SocialType.java)
+- User 클래스 컬럼 추가
+  1. principal : OAuth2 인증으로 제공받는 키 값
+  2. socialType : 어떠한 소셜 미디어로 인증 받았는지 여부
+- 카카오 정보 객체 생성(CustomOAuth2Provider.java)
+  1. 카카오 개발자 센터 연동 및 client-id, secret 발급
+  2. id, secret 정보 입력(application.yml)
+- Security + OAuth2 설정(SecurityConfig.java)
+- 로그인 컨트롤러 생성(LoginController.java)
+- 액세스 토큰값을 이용하여 User 정보 저장(UserArgumentResolver.java)
+- 생성, 수정, 삭제 테스트
